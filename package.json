@@ -1,0 +1,31 @@
+{
+  "name": "ndl-holiday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "fmt": "prettier --write 'src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^5.9.1",
+    "googleapis": "^47.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/dotenv": "^8.2.0",
+    "@types/request-promise": "^4.1.45",
+    "prettier": "^1.19.1"
+  }
+}
